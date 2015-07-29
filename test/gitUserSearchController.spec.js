@@ -34,7 +34,7 @@ describe('when searching for a user', function() {
   beforeEach(inject(function($httpBackend) {
     httpBackend = $httpBackend;
     $httpBackend
-      .when("GET", "https://api.github.com/search/users?key=#&q=hello")
+      .when("GET", "https://api.github.com/search/users?key=#=hello")
       .respond(
         { items: items }
       );
