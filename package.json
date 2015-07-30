@@ -21,6 +21,10 @@
     "protractor": "^2.1.0"
   },
   "dependencies": {
+    "express": "^4.13.1",
     "http-server": "^0.8.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }

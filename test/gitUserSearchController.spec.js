@@ -33,7 +33,7 @@ describe('GitUserSearchController', function() {
     beforeEach(inject(function($httpBackend) {
       httpBackend = $httpBackend;
       $httpBackend
-        .expectGET("https://api.github.com/search/users?key=d423d0901c401fb4c4f5d2de4016c4e395741b28&q=hello")
+        .expectGET("https://api.github.com/search/users?key="+ access_token + "&q=hello")
         .respond(
           { items: items }
         );
