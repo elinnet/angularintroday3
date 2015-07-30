@@ -36,7 +36,7 @@ describe('GitHub profile finder', function(){
   //   searchButton.click();
   //   $$('li a').click();
   //   // element(by.repeater('user in searchCtrl.searchResult.items'))
-  // 
+  //
   //   expect(browser.getCurrentUrl()).toEqual("https://github.com/spike01");
   //
   //   expect(element(by.binding('user.login'))
